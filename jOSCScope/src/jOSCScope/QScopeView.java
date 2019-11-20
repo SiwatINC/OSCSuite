@@ -1,10 +1,10 @@
-package gui;
+package jOSCScope;
 
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
-public class Setup {
+public class QScopeView {
 
 	private JFrame frame;
 
@@ -15,7 +15,7 @@ public class Setup {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Setup window = new Setup();
+					QScopeView window = new QScopeView();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -27,7 +27,7 @@ public class Setup {
 	/**
 	 * Create the application.
 	 */
-	public Setup() {
+	public QScopeView() {
 		initialize();
 	}
 

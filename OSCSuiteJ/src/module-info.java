@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author siwat
- *
- */
-module jOSCSuite {
-}
