@@ -1,12 +1,7 @@
 package jOSCScope;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JRadioButtonMenuItem;
+import javax.swing.*;
+import java.awt.*;
 
 public class QScopeView {
 
@@ -50,6 +45,9 @@ public class QScopeView {
 		
 		JMenu mnFile = new JMenu("File");
 		menuBar.add(mnFile);
+		
+		JMenuItem mntmConfigure = new JMenuItem("Configure");
+		mnFile.add(mntmConfigure);
 		
 		JMenuItem mntmExit = new JMenuItem("Exit");
 		mnFile.add(mntmExit);
