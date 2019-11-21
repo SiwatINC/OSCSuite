@@ -8,6 +8,7 @@ import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 import java.awt.Font;
 import javax.swing.JLabel;
+import javax.swing.SwingConstants;
 
 public class Setup {
 
@@ -54,24 +55,24 @@ public class Setup {
 		comboBox.setFont(new Font("Tahoma", Font.BOLD, 24));
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"QScope R1", "QScope R2", "QScope X", "DScope R1", "DScope R2", "SScope R1", "SScope R2", "Arduinoscope (DIY)"}));
 		comboBox.setToolTipText("Oscilloscope Model");
-		comboBox.setBounds(191, 44, 228, 44);
+		comboBox.setBounds(191, 101, 228, 44);
 		frmSetupOscscope.getContentPane().add(comboBox);
 		
 		JLabel lblOscilloscopeModel = new JLabel("Oscilloscope Model");
 		lblOscilloscopeModel.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblOscilloscopeModel.setBounds(31, 53, 143, 27);
+		lblOscilloscopeModel.setBounds(31, 114, 143, 27);
 		frmSetupOscscope.getContentPane().add(lblOscilloscopeModel);
 		
 		JComboBox comboBox_1 = new JComboBox();
 		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"0.25MHz", "0.5MHz", "1MHz", "2MHz", "5MHz", "10MHz"}));
 		comboBox_1.setToolTipText("Oscilloscope Model");
 		comboBox_1.setFont(new Font("Tahoma", Font.BOLD, 24));
-		comboBox_1.setBounds(192, 125, 228, 44);
+		comboBox_1.setBounds(191, 156, 228, 44);
 		frmSetupOscscope.getContentPane().add(comboBox_1);
 		
 		JLabel lblPollingRate = new JLabel("Polling Rate");
 		lblPollingRate.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblPollingRate.setBounds(31, 131, 143, 27);
+		lblPollingRate.setBounds(31, 169, 143, 27);
 		frmSetupOscscope.getContentPane().add(lblPollingRate);
 		
 		JComboBox comboBox_2 = new JComboBox();
@@ -90,5 +91,11 @@ public class Setup {
 		btnContinue.setFont(new Font("Tahoma", Font.PLAIN, 30));
 		btnContinue.setBounds(31, 284, 388, 56);
 		frmSetupOscscope.getContentPane().add(btnContinue);
+		
+		JLabel lblOscilloscopeSetup = new JLabel("CH Series Oscilloscope Setup");
+		lblOscilloscopeSetup.setFont(new Font("Dialog", Font.BOLD, 26));
+		lblOscilloscopeSetup.setHorizontalAlignment(SwingConstants.CENTER);
+		lblOscilloscopeSetup.setBounds(33, 11, 388, 79);
+		frmSetupOscscope.getContentPane().add(lblOscilloscopeSetup);
 	}
 }
