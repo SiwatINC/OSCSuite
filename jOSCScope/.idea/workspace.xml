@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30267cc3-3ea2-4d3b-8f20-94244d0a3540" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../OCSKit/src/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OSCTools/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OSCTools/src/gui/JFx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OSCTools/src/gui/guice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OSCTools/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OCSKit/.idea/libraries/javalib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OCSKit/src/JEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OCSKit/src/JEditor.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OCSKit/src/QView.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OCSKit/src/QView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OCSKit/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OCSKit/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OCSKit/OCSKit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../OCSKit/OCSKit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OCSKit/src/Setup.form" beforeDir="false" afterPath="$PROJECT_DIR$/../OCSKit/src/Setup.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OCSKit/src/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OCSKit/src/Setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jOSCScope/QScopeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jOSCScope/QScopeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jOSCScope/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jOSCScope/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +36,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574311793349</updated>
-      <workItem from="1574311802426" duration="2905000" />
+      <workItem from="1574311802426" duration="3008000" />
+      <workItem from="1574318366420" duration="1209000" />
     </task>
     <servers />
   </component>
@@ -112,7 +111,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
